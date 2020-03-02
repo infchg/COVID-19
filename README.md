@@ -11,8 +11,8 @@
   - Curators: John Hopkins
 
 ## Source: China Summary Live Update
-  - Data Feed: API format https://lab.isaaclin.cn/nCoV/api/overall?latest=0
-  - [] Infectious Estimation of R0 Y. Wang  https://github.com/yijunwang0805/YijunWang /Yijun_Yijun/Estimation of R0.ipynb
-  - [] Li, Q., Guan, X., et al. (2020, January 29). Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia. The New England Journal of Medicine. https://www.nejm.org/doi/full/10.1056/NEJMoa2001316#article_references
+  - Data Feed, Isaac Lin: [API format](https://lab.isaaclin.cn/nCoV/api/overall?latest=0)
+  - [Infectious Estimation of R0](https://github.com/yijunwang0805/YijunWang), Y. Wang
+  - Li, Q., Guan, X., et al. (2020, January 29). [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316#article_references) The New England Journal of Medicine. 
 
 Note to contributors: aiming to add links closest to the original source or curation, (to avoid duplicated sources)
