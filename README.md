@@ -1,5 +1,11 @@
 # COVID-19 Data Sources and Analysis
 
+jupyter feeding charts grafics https://dasn.herokuapp.com/covid19  
+
+image:: dasn-dashboard-covid19.PNG
+  :scale: 34 %
+
+
 ## Source: World-cases, Age, Gender, Travel History
   - Data Feed: https://docs.google.com/spreadsheets/d/1itaohdPiAeniCXNlntNztZ_oRvjh0HsGuJXUJWET008/edit#gid=0
   - [] B Xu, M Kraemer, Open access epidemiological data from the COVID-19 outbreak, www.thelancet.com › article › PIIS1473-3099(20)30119-5 › Feb 19, 2020 
