@@ -2,9 +2,7 @@
 
 jupyter feeding charts grafics https://dasn.herokuapp.com/covid19  
 
-image:: dasn-dashboard-covid19.PNG
-  :scale: 34 %
-
+![dasn.herokuapp.com/covid19](dasn-dashboard-covid19.PNG)
 
 ## Source: World-cases, Age, Gender, Travel History
   - Data Feed: https://docs.google.com/spreadsheets/d/1itaohdPiAeniCXNlntNztZ_oRvjh0HsGuJXUJWET008/edit#gid=0
