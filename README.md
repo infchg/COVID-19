@@ -20,3 +20,8 @@ jupyter feeding charts grafics https://dasn.herokuapp.com/covid19
   - Li, Q., Guan, X., et al. (2020, January 29). [Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia.](https://www.nejm.org/doi/full/10.1056/NEJMoa2001316#article_references) The New England Journal of Medicine. 
 
 Note to contributors: aiming to add links closest to the original source or curation, (to avoid duplicated sources)
+
+notes:
+
+cp /c/Users/ma*/Down*/JH-calculate-daily*9?.ipynb JH-calculate-daily.ipynb
+
