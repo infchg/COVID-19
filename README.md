@@ -25,3 +25,4 @@ notes:
 
 cp /c/Users/ma*/Down*/JH-calculate-daily*9?.ipynb JH-calculate-daily.ipynb
 
+ ls -ltr /c/Users/ma*/Down*/JH* 
