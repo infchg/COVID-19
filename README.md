@@ -23,7 +23,8 @@ Note to contributors: aiming to add links closest to the original source or cura
 
 notes:
 
+```
 cp /c/Users/ma*/Down*/JH-calculate-daily*9?.ipynb JH-calculate-daily.ipynb
-
- ls -ltr /c/Users/ma*/Down*/JH* 
+ ls -ltr /c/Users/ma*/Down*/*nb 
 cp /c/Users/ma*/Down*/updates*6?.ipynb updates.ipynb
+```
