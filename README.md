@@ -25,6 +25,6 @@ notes:
 
 ```
 cp /c/Users/ma*/Down*/JH-calculate-daily*9?.ipynb JH-calculate-daily.ipynb
- ls -ltr /c/Users/ma*/Down*/*nb 
+ ls -ltr /c/Users/ma*/Down*/*nb |tail
 cp /c/Users/ma*/Down*/updates*6?.ipynb updates.ipynb
 ```
