@@ -21,8 +21,28 @@ jupyter feeding charts grafics https://dasn.herokuapp.com/covid19
 
 Note to contributors: aiming to add links closest to the original source or curation, (to avoid duplicated sources)
 
-notes:
+jc: https://nbviewer.jupyter.org/github/infchg/COVID-19/blob/master/JH-calculate-daily.ipynb
 
+may16
+```
+2142,2391,2207,1518,1615,731,1156,1674,1763,1779,1632,1224"
+data-datasets="571,650,602,827,639,467,530,808,779,759,963,700" bz
+data-datasets="693,649,539,626,346,268,210,627,494,428,384,468"uk
+data-datasets="236,197,257,199,193,112,108,353,294,257,290,278"mx
+data-datasets="236,369,274,243,194,165,179,172,195,262,242,153"it
+data-datasets="100,89,94,87,100,75,72,96,112,98,125,131"pe
+data-datasets="95,86,88,98,104,88,94,107,96,93,113,119"ru
+data-datasets="127,92,104,96,116,111,82,121,136,98,104,118"in
+data-datasets="185,244,213,229,179,143,123,176,184,217,138,104"es
+data-datasets="0,49,36,50,13,410,18,182,7,4,256,94"
+data-datasets="118,112,121,94,61,142,85,118,89,131,50,82"
+data-datasets="92,323,76,106,60,75,51,54,82,60,56,46"be
+data-datasets="0,282,117,118,39,20,92,77,123,23,13,41"de
+data-datasets="59,64,57,48,50,47,55,53,58,55,48,41"tk
+data-datasets="59,55,47,58,61,25,37,64,31,32,24,37"
+data-datasets="63,78,68,55,48,51,45,48,50,71,48,35 ir
+```
+notes:
 ```
 cp /c/Users/ma*/Down*/JH-calculate-daily*13?.ipynb JH-calculate-daily.ipynb
  ls -ltr /c/Users/ma*/Down*/*nb |tail
