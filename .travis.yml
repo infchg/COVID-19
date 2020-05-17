@@ -17,3 +17,6 @@ install:
   - jupyter nbconvert --to script   	JH-calculate-daily.ipynb
 script:
 - py.test
+notifications:
+  slack:
+    on_success: always
