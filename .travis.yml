@@ -14,5 +14,6 @@ install:
   - export PATH="$HOME/miniconda/bin:$PATH"
   - ls
   - id
+  - jupyter nbconvert --to script 
 script:
 - py.test
