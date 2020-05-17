@@ -21,7 +21,9 @@ jupyter feeding charts grafics https://dasn.herokuapp.com/covid19
 
 Note to contributors: aiming to add links closest to the original source or curation, (to avoid duplicated sources)
 
-jc: https://nbviewer.jupyter.org/github/infchg/COVID-19/blob/master/JH-calculate-daily.ipynb
+jc:
+- [![Build Status](https://travis-ci.org/infchg/COVID-19.svg)](https://travis-ci.org/infchg/covid-19) 
+- https://nbviewer.jupyter.org/github/infchg/COVID-19/blob/master/JH-calculate-daily.ipynb
 
 may16
 ```
