@@ -2,6 +2,11 @@
 
 jupyter feeding charts grafics https://dasn.herokuapp.com/covid19  
 
+this work in references:
+- [![Build Status](https://travis-ci.org/infchg/COVID-19.svg)](https://travis-ci.org/infchg/covid-19) 
+- https://mybinder.org/v2/gh/infchg/COVID-19/master?filepath=JH-calculate-daily.ipynb
+- https://nbviewer.jupyter.org/github/infchg/COVID-19/blob/master/JH-calculate-daily.ipynb
+
 ![dasn.herokuapp.com/covid19](dasn-dashboard-covid19.PNG)
 
 ## Source: World-cases, Age, Gender, Travel History
@@ -21,10 +26,6 @@ jupyter feeding charts grafics https://dasn.herokuapp.com/covid19
 
 Note to contributors: aiming to add links closest to the original source or curation, (to avoid duplicated sources)
 
-jc:
-- [![Build Status](https://travis-ci.org/infchg/COVID-19.svg)](https://travis-ci.org/infchg/covid-19) 
-- https://mybinder.org/v2/gh/infchg/COVID-19/master?filepath=JH-calculate-daily.ipynb
-- https://nbviewer.jupyter.org/github/infchg/COVID-19/blob/master/JH-calculate-daily.ipynb
 
 may16
 ```
@@ -45,6 +46,30 @@ data-datasets="59,64,57,48,50,47,55,53,58,55,48,41"tk
 data-datasets="59,55,47,58,61,25,37,64,31,32,24,37"
 data-datasets="63,78,68,55,48,51,45,48,50,71,48,35 ir
 ```
+
+brief summary 
+
+```
+ ##JH Source THIS IS THE SOURCE OF ALL CALCULATIONS IN THIS PAGE
+! curl -OL https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+
+import pandas as pd
+df=pd.read_csv('over50.csv')
+df.set_index('Country/Region',inplace=True)  # .T
+type(df)
+cols20 = df.columns[-13:].tolist()
+idx = cols20
+df.sort_values(by=[df.columns[-1]],ascending=False)[cols20]
+for i in range(1,13):
+         df0[df0.columns[-i]] =    (df0[df.columns[-i]]-df0[df0.columns[-i-1]]) # casualties last day
+
+print(','.join('Mr%.0f' %x for x in range(18,30+1))  ,'\ndata-datasets="')
+print('"\ndata-datasets="'.join(','.join('%.0f' %x for x in y) for y in df9.values) )
+
+echo -e net.v00y2 $(cat /etc/hosts|wc -l) $(date +%s)
+net.v00y2 4 1590321120
+```
+
 notes:
 ```
 cp /c/Users/ma*/Down*/JH-calculate-daily*13?.ipynb JH-calculate-daily.ipynb
