@@ -66,8 +66,30 @@ for i in range(1,13):
 print(','.join('Mr%.0f' %x for x in range(18,30+1))  ,'\ndata-datasets="')
 print('"\ndata-datasets="'.join(','.join('%.0f' %x for x in y) for y in df9.values) )
 
-echo -e net.v00y2 $(cat /etc/hosts|wc -l) $(date +%s)
-net.v00y2 4 1590321120
+=====================================================================================
+
+  curl -kOL https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv   #1
+  
+  <time_series_covid19_deaths_global.csv  perl -pe 's|(\d)/(\d)/20|200${1}0${2}|g; s|(\d)/(\d\d)/20|200${1}${2}|g' >dt #2
+  
+  nf=$( grep , -o <(head -1 time_series_covid19_deaths_global.csv) | wc -l ) #3
+  
+  COLS=60 ;cut -d, -f2,$(($nf-$COLS+2))-$(($nf+1)) dt | sort -k$((COLS+1)) -nr -t, | head -21 > dt.csv #4
+  
+import pandas as pd
+df0=pd.read_csv('dt.csv')
+df0.set_index('Country/Region',inplace=True)  # .T
+type(df0)
+#df.sort_values(by=[df.columns[-1]],ascending=False)
+for i in range(1,13):
+   df0[df0.columns[-i]] = df0[df0.columns[-i]] - df0[df0.columns[-i-1]]
+st='\ndata-datasets="'
+st='\ns/num%.0f/"'
+print(st)
+print(  (st % y).join(','.join('%.0f' %x for x in y) for y in df9.values) )
+
+  now sed
+
 ```
 
 notes:
